@@ -14,4 +14,4 @@ Just run ```curl -sS https://cdn.rawgit.com/artisan-jumper/jump-db/master/setup.
 
 # Copyrights
 
-&copy; 2018 3runoDesign a collaborative project GabrielLacerda, all rights reserved.
+&copy; 2018 Artisan Jumper, all rights reserved.
