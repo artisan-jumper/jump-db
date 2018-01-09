@@ -1,4 +1,4 @@
-# Laravel Heroku DB
+# Jump DB
 
 Automating your laravel database variables has never been easier.
 
