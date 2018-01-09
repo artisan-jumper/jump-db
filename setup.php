@@ -94,7 +94,7 @@ if (preg_match("/\b(?:(?:mysql):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&
   shell_exec("heroku config:set DB_USERNAME={$username}");
   shell_exec("heroku config:set DB_PASSWORD={$password}");
 
-  echo " ▸    " . $run->getColoredString( "Thanks for using jump-db (", "purple", "white" ). $run->getColoredString( "https://github.com/3runoDesign/jump-db", "green", "white" ) . $run->getColoredString( ").", "purple", "white" ) . "\n";
+  echo " ▸    " . $run->getColoredString( "Thanks for using jump-db (", "purple", "white" ). $run->getColoredString( "https://github.com/artisan-jumper/jump-db", "green", "white" ) . $run->getColoredString( ").", "purple", "white" ) . "\n";
 } else {
   echo " ▸    Sorry! We cannot find a valid ". $run->getColoredString( "CLEARDB_DATABASE_URL", "red", "white" ) ." variable.";
   echo "\n ▸    Please run " . $run->getColoredString( "heroku addons:create cleardb:ignite", "purple", "white" ) . ".\n\n\n\n";
