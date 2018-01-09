@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Copyright 2018 Bruno Fernando and Gabriel Lacerda.
+ * Copyright 2018 Artisan Jumper.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -88,7 +88,7 @@ if (preg_match("/\b(?:(?:mysql):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&
   $username = $url_array["user"];
   $password = $url_array["pass"];
   $db = substr($url_array["path"], 1);
-  
+
   shell_exec("heroku config:set DB_HOST={$server}");
   shell_exec("heroku config:set DB_DATABASE={$db}");
   shell_exec("heroku config:set DB_USERNAME={$username}");
