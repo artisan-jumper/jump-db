@@ -4,13 +4,13 @@ Automating your laravel database variables has never been easier.
 
 # Dependencies
 
-- Heroku cli
-- php
-- curl
+- [Heroku cli](https://devcenter.heroku.com/articles/heroku-cli)
+- PHP
+- cURL
 
 # Using
 
-Just run ```curl -sS https://cdn.rawgit.com/artisan-jumper/jump-db/master/setup.php | php```
+Just run `curl -sS https://cdn.rawgit.com/artisan-jumper/jump-db/master/setup.php | php`
 
 # Copyrights
 
