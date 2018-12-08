@@ -10,7 +10,7 @@ Automating your laravel database variables has never been easier.
 
 # Using
 
-Just run `curl -sS https://cdn.rawgit.com/artisan-jumper/jump-db/master/setup.php | php`
+Just run `curl -sS https://cdn.jsdelivr.net/gh/artisan-jumper/jump-db/setup.php | php`
 
 # Copyrights
 
